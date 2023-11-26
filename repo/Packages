@@ -1,0 +1,155 @@
+Package: com.enigmadevteam.localiapstore
+Version: 1.4-2
+Section: Tweaks
+Maintainer: I K Y
+Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Filename: Files/iap/com.enigmadevteam.localiapstore_1.4-2.deb
+Size: 71026
+Description: Pwns In-App purchases on iOS 5.1.1 - 7.1.X. Compatible with ARMv8 (64 Bit). Enable in settings. PRESS 'DISMISS' ON POPUP!
+Name: LocalIAPStore
+Author: anondev
+Depiction: http://iamiky.github.io
+
+Package: com.exile90.icleanerpro
+Version: 7.10.0
+Section: Utilities
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Architecture: iphoneos-arm
+Filename: Files/clean/com.exile90.icleanerpro_7.10.0.deb
+Size: 2450460
+Description: The first real iOS system cleanup and management utility
+Name: iCleaner Pro
+Author: Ivano Bilenchi <support@ib-soft.net>
+Homepage: http://ib-soft.net/icleaner
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: file:///Applications/iCleaner.app/Icon.png
+
+Package: com.ixmoe.1pwn.Veteris
+Version: 1.7.2
+Section: Utilities
+Maintainer: Electimon <electimon@gmail.com>
+Depends: firmware (>= 5.0), appsync
+Architecture: iphoneos-arm
+Filename: Files/veteris/com.ixmoe.1pwn.Veteris_1.7.2.deb
+Size: 484306
+Description: A Client for the Veteris Server.
+Name: Veteris
+Author: Electimon <electimon@gmail.com>
+Homepage: http://1pwn.ixmoe.com/
+Icon: file:///Applications/Veteris.app/AppIcon57x57@2x.png
+
+Package: com.ixmoe.1pwn.ebayx
+Version: 1.0.0-1+debug
+Section: Tweaks
+Maintainer: electimon
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm
+Filename: Files/ebayx/com.ixmoe.1pwn.ebayx_1.0.0-1+debug.deb
+Size: 2842
+Installed-Size: 56
+Description: eBay killswitch disabler, Kot!
+Name: eBayX
+Author: electimon
+
+Package: com.ixmoe.1pwn.facetimefixer
+Version: 1.0.1
+Section: Utilities
+Maintainer: Electimon <electimon@gmail.com>
+Depends: firmware (>= 5.0), appsync
+Architecture: iphoneos-arm
+Filename: Files/facetimex/com.ixmoe.1pwn.facetimefixer_1.0.1.deb
+Size: 2058
+Description: Just kidding.
+Name: FaceTimeX
+Author: Electimon <electimon@gmail.com>
+Homepage: http://1pwn.ixmoe.com/
+
+Package: com.ixmoe.1pwn.stockx
+Version: 1.0.0-11+debug
+Section: Tweaks
+Maintainer: electimon
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/stockx/com.ixmoe.1pwn.stockx_1.0.0-11+debug.deb
+Size: 2410
+Installed-Size: 120
+Description: An awesome MobileSubstrate tweak!
+Name: StockX
+Author: electimon
+
+Package: com.ixmoe.1pwn.weatherx
+Version: 1.0.0-1+debug
+Section: Tweaks
+Maintainer: electimon
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm
+Filename: Files/weatherx/com.ixmoe.1pwn.weatherx_1.0.0-1+debug.deb
+Size: 4914
+Installed-Size: 104
+Description: Redirect Weather requests to my server!
+Name: WeatherX
+Author: electimon
+
+Package: org.mtmdev.YewTube
+Version: 1.0.1
+Section: Internet
+Maintainer: Electimon <electimon@gmail.com>
+Depends: firmware (>= 5.0), appsync
+Architecture: iphoneos-arm
+Filename: Files/yewtube/org.mtmdev.YewTube_1.0.1.deb
+Size: 180100
+Description: A YouTube client made in Objective-C utilizing the power of Invidious.
+Name: YewTube
+Author: Electimon <electimon@gmail.com>
+Homepage: http://mtmdev.org
+Icon: http://2pwn.tk/dev/icons/YewTube.png
+
+Package: uk.invoxiplaygames.tubefixer
+Version: 2.0-127+debug
+Section: Tweaks
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Pre-Depends: dpkg (>= 1.13.25-5)
+Depends: mobilesubstrate, firmware (>= 3.0)
+Architecture: iphoneos-arm
+Filename: Files/tubefixer/uk.invoxiplaygames.tubefixer_2.0-127+debug.deb
+Size: 8578
+Installed-Size: 104
+Description: Package to fix YouTube on iOS 3-5
+Name: TubeFixer for iOS
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Homepage: http://tubefixer.ovh/
+Depiction: http://cydia.invoxiplaygames.uk/dp/tubefixer.php
+
+Package: uk.invoxiplaygames.twifixer
+Version: 0.2-2+debug
+Section: Tweaks
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: Files/twifixer/uk.invoxiplaygames.twifixer_0.2-2+debug.deb
+Size: 4128
+Installed-Size: 164
+Description: Tweak to let you use Twitter on iOS 5 and iOS 7 (and probably more)
+Name: TwiFixer
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Depiction: http://cydia.invoxiplaygames.uk/dp/twifixer.php
+
+Package: uk.invoxiplaygames.youtube
+Version: 1.0
+Priority: optional
+Section: Entertainment
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Depends: firmware (>= 6.0), firmware (<= 7.0)
+Conflicts: com.tekwik.youtube
+Architecture: iphoneos-arm
+Filename: Files/uk.invoxiplaygames.youtube_1.0.deb
+Size: 901312
+Description: Returns the classic YouTube app to iOS 6.
+Name: Classic YouTube App
+Author: InvoxiPlayGames
+Depiction: http://cydia.invoxiplaygames.uk/dp/youtube.php
+
