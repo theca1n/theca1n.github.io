@@ -6,6 +6,7 @@ Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm
 Filename: Files/iap/com.enigmadevteam.localiapstore_1.4-2.deb
 Size: 71026
+MD5sum: 39a7e79f2c09d950e081e99b3ea4da84
 Description: Pwns In-App purchases on iOS 5.1.1 - 7.1.X. Compatible with ARMv8 (64 Bit). Enable in settings. PRESS 'DISMISS' ON POPUP!
 Name: LocalIAPStore
 Author: anondev
@@ -21,6 +22,7 @@ Replaces: org.altervista.exilecom.icleaner
 Architecture: iphoneos-arm
 Filename: Files/clean/com.exile90.icleanerpro_7.10.0.deb
 Size: 2450460
+MD5sum: 830ebd462d173a9211f5f7c41ce64d1a
 Description: The first real iOS system cleanup and management utility
 Name: iCleaner Pro
 Author: Ivano Bilenchi <support@ib-soft.net>
@@ -36,6 +38,7 @@ Depends: firmware (>= 5.0), appsync
 Architecture: iphoneos-arm
 Filename: Files/veteris/com.ixmoe.1pwn.Veteris_1.7.2.deb
 Size: 484306
+MD5sum: f2d6c53be6b33a98665af70375dcc9d6
 Description: A Client for the Veteris Server.
 Name: Veteris
 Author: Electimon <electimon@gmail.com>
@@ -51,6 +54,7 @@ Architecture: iphoneos-arm
 Filename: Files/ebayx/com.ixmoe.1pwn.ebayx_1.0.0-1+debug.deb
 Size: 2842
 Installed-Size: 56
+MD5sum: d388cd0254c5c81b24455b6a52eb877b
 Description: eBay killswitch disabler, Kot!
 Name: eBayX
 Author: electimon
@@ -63,6 +67,7 @@ Depends: firmware (>= 5.0), appsync
 Architecture: iphoneos-arm
 Filename: Files/facetimex/com.ixmoe.1pwn.facetimefixer_1.0.1.deb
 Size: 2058
+MD5sum: f585084e27b25c7062aa176ac68621ef
 Description: Just kidding.
 Name: FaceTimeX
 Author: Electimon <electimon@gmail.com>
@@ -77,6 +82,7 @@ Architecture: iphoneos-arm
 Filename: Files/stockx/com.ixmoe.1pwn.stockx_1.0.0-11+debug.deb
 Size: 2410
 Installed-Size: 120
+MD5sum: aeab8a3af965b1da0194faacb360bf58
 Description: An awesome MobileSubstrate tweak!
 Name: StockX
 Author: electimon
@@ -90,6 +96,7 @@ Architecture: iphoneos-arm
 Filename: Files/weatherx/com.ixmoe.1pwn.weatherx_1.0.0-1+debug.deb
 Size: 4914
 Installed-Size: 104
+MD5sum: 76747595504cbe4bb1a15c3f1fa54787
 Description: Redirect Weather requests to my server!
 Name: WeatherX
 Author: electimon
@@ -102,6 +109,7 @@ Depends: firmware (>= 5.0), appsync
 Architecture: iphoneos-arm
 Filename: Files/yewtube/org.mtmdev.YewTube_1.0.1.deb
 Size: 180100
+MD5sum: 91d09c8e3134fdbfb3a9c948243e78e2
 Description: A YouTube client made in Objective-C utilizing the power of Invidious.
 Name: YewTube
 Author: Electimon <electimon@gmail.com>
@@ -118,6 +126,7 @@ Architecture: iphoneos-arm
 Filename: Files/tubefixer/uk.invoxiplaygames.tubefixer_2.0-127+debug.deb
 Size: 8578
 Installed-Size: 104
+MD5sum: 64323067186f928c8d8131f491095769
 Description: Package to fix YouTube on iOS 3-5
 Name: TubeFixer for iOS
 Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
@@ -133,6 +142,7 @@ Architecture: iphoneos-arm
 Filename: Files/twifixer/uk.invoxiplaygames.twifixer_0.2-2+debug.deb
 Size: 4128
 Installed-Size: 164
+MD5sum: 26e5ba907fba8228b9addac8887bd9c3
 Description: Tweak to let you use Twitter on iOS 5 and iOS 7 (and probably more)
 Name: TwiFixer
 Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
@@ -148,6 +158,7 @@ Conflicts: com.tekwik.youtube
 Architecture: iphoneos-arm
 Filename: Files/uk.invoxiplaygames.youtube_1.0.deb
 Size: 901312
+MD5sum: 7d5ea1f351dfa3af3426b5e34e520317
 Description: Returns the classic YouTube app to iOS 6.
 Name: Classic YouTube App
 Author: InvoxiPlayGames
