@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AYSEN ZAPTCIOGLU</title>
-    <meta name="description" content="Professional app studio founded by Aysen Zaptcioglu and Can Zaptcioglu. Featuring our latest app: Flux Subscriptions Tracker.">
+    <title>Support - AYSEN ZAPTCIOGLU</title>
+    <meta name="description" content="Support and contact page for AYSEN ZAPTCIOGLU applications.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -32,7 +32,6 @@
             overflow-x: hidden;
         }
 
-        /* Abstract background shapes */
         .bg-shape {
             position: absolute;
             border-radius: 50%;
@@ -80,26 +79,6 @@
             padding: 2rem 5%;
         }
 
-        .hero {
-            text-align: center;
-            padding: 4rem 0 6rem;
-        }
-
-        .hero h1 {
-            font-size: 3.5rem;
-            margin-bottom: 1rem;
-            font-weight: 700;
-            animation: fadeInDown 1s ease-out;
-        }
-
-        .hero p {
-            font-size: 1.25rem;
-            color: var(--text-muted);
-            max-width: 600px;
-            margin: 0 auto;
-            animation: fadeInUp 1s ease-out 0.2s both;
-        }
-
         .section-title {
             font-size: 2rem;
             margin-bottom: 2rem;
@@ -121,96 +100,6 @@
             transform: translateY(-5px);
             box-shadow: 0 30px 60px rgba(0,0,0,0.3);
             border-color: rgba(255, 255, 255, 0.2);
-        }
-
-        /* Feat App Section */
-        .featured-app {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            margin-bottom: 4rem;
-        }
-
-        .app-icon {
-            width: 100px;
-            height: 100px;
-            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
-            border-radius: 24px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 3rem;
-            margin-bottom: 1.5rem;
-            box-shadow: 0 10px 25px rgba(59, 130, 246, 0.3);
-        }
-
-        .featured-app h3 {
-            font-size: 1.8rem;
-            margin-bottom: 1rem;
-        }
-
-        .featured-app p {
-            color: var(--text-muted);
-            font-size: 1.1rem;
-            margin-bottom: 1.5rem;
-        }
-
-        .badge {
-            display: inline-block;
-            padding: 0.4rem 1rem;
-            background: rgba(99, 102, 241, 0.1);
-            color: var(--primary-light);
-            border-radius: 9999px;
-            font-size: 0.85rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 1rem;
-            border: 1px solid rgba(99, 102, 241, 0.2);
-        }
-
-        /* Team Section */
-        .team-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 2rem;
-            margin-bottom: 4rem;
-        }
-
-        .team-member {
-            text-align: center;
-        }
-        
-        .avatar {
-            width: 80px;
-            height: 80px;
-            border-radius: 50%;
-            background: #cbd5e1;
-            margin: 0 auto 1.5rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 2rem;
-            color: #475569;
-        }
-
-        .avatar-aysen { background: linear-gradient(135deg, #10b981, #3b82f6); color: white; }
-        .avatar-can { background: linear-gradient(135deg, #f59e0b, #ef4444); color: white; }
-
-        .team-member h4 {
-            font-size: 1.25rem;
-            margin-bottom: 0.5rem;
-        }
-
-        .team-member p {
-            color: var(--primary-light);
-            font-weight: 500;
-        }
-
-        /* Contact Section */
-        .contact {
-            text-align: center;
         }
 
         .contact-links {
@@ -270,80 +159,33 @@
             border-top: 1px solid rgba(255,255,255,0.05);
             margin-top: 4rem;
         }
-
-        /* Animations */
-        @keyframes fadeInDown {
-            from { opacity: 0; transform: translateY(-20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        @keyframes fadeInUp {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        @media (max-width: 768px) {
-            .hero h1 { font-size: 2.5rem; }
-            .hero p { font-size: 1.1rem; }
-        }
     </style>
 </head>
 <body>
-
     <div class="bg-shape shape-1"></div>
     <div class="bg-shape shape-2"></div>
 
     <header>
-        <div class="logo">AYSEN ZAPTCIOGLU</div>
+        <a href="index.html" style="text-decoration: none;"><div class="logo">AYSEN ZAPTCIOGLU</div></a>
     </header>
 
     <div class="container">
-        <section class="hero">
-            <h1>Crafting Exceptional<br>Mobile Experiences</h1>
-            <p>We build beautiful, high-performance applications designed to make everyday life simpler and smarter.</p>
-        </section>
-
-        <section class="featured-app card">
-            <span class="badge">Featured App</span>
-            <div class="app-icon">
-                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
-                </svg>
-            </div>
-            <h3>Flux: Subscriptions Tracker</h3>
-            <p>Take control of your recurring expenses. Never miss a payment or pay for an unused subscription again with our elegant and intuitive tracking solution.</p>
-        </section>
-
-        <h2 class="section-title">Leadership & Development</h2>
-        <div class="team-grid">
-            <div class="team-member card">
-                <div class="avatar avatar-aysen">AZ</div>
-                <h4>Aysen Zaptcioglu</h4>
-                <p>Legal Owner</p>
-            </div>
-            <div class="team-member card">
-                <div class="avatar avatar-can">CZ</div>
-                <h4>Can Zaptcioglu</h4>
-                <p>Lead Developer</p>
-            </div>
-        </div>
-
-        <section class="contact card">
-            <h2 class="section-title" style="margin-bottom: 1rem;">Let's Connect</h2>
-            <p style="color: var(--text-muted); max-width: 500px; margin: 0 auto;">Have an idea for a great app or need support for our existing products? Reach out to us directly.</p>
+        <section class="card" style="max-width: 800px; margin: 0 auto; text-align: center;">
+            <h1 class="section-title">App Support</h1>
+            <p style="color: var(--text-muted); margin-bottom: 2rem;">If you need help with <strong>Flux: Subscriptions Tracker</strong> or any of our other applications, please don't hesitate to reach out to us. We usually respond within 24 hours.</p>
             
             <div class="contact-links">
                 <a href="mailto:zaptcioglucan@gmail.com" class="btn btn-email">
                     <svg class="icon" viewBox="0 0 24 24">
                         <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
                     </svg>
-                    Email Us
+                    Email Support
                 </a>
                 <a href="https://wa.me/905076768835" target="_blank" class="btn btn-whatsapp">
                     <svg class="icon" viewBox="0 0 24 24">
                         <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.888-.788-1.489-1.761-1.663-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/>
                     </svg>
-                    WhatsApp Chat
+                    WhatsApp Support
                 </a>
             </div>
         </section>
@@ -352,7 +194,7 @@
     <footer>
         <p>&copy; 2026 AYSEN ZAPTCIOGLU. All rights reserved.</p>
         <div style="margin-top: 1rem; display: flex; justify-content: center; gap: 1.5rem;">
-            <a href="support.html" style="color: var(--primary-light); text-decoration: none; font-weight: 600; transition: color 0.3s;" onmouseover="this.style.color='#c084fc'" onmouseout="this.style.color='var(--primary-light)'">Support</a>
+            <a href="index.html" style="color: var(--primary-light); text-decoration: none; font-weight: 600; transition: color 0.3s;" onmouseover="this.style.color='#c084fc'" onmouseout="this.style.color='var(--primary-light)'">Home</a>
             <a href="privacy.html" style="color: var(--primary-light); text-decoration: none; font-weight: 600; transition: color 0.3s;" onmouseover="this.style.color='#c084fc'" onmouseout="this.style.color='var(--primary-light)'">Privacy Policy</a>
         </div>
     </footer>
