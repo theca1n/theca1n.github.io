@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>XC-Legacy &mdash; Legacy iOS Preservation, Tweaks & Cydia Repository</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="XC-Legacy by Can Zaptçıoğlu - Official home and Cydia repository for legacy iOS tweaks, SSL fixes, iOS 4/5/6/7 patches, and developer guides.">
+  <meta name="author" content="Can Zaptçıoğlu">
+
+  <!-- Bootstrap 2.3.2 Core & Responsive CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+  <link href="css/retro-custom.css" rel="stylesheet">
+
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![if]-->
+
+  <!-- Favicon & Apple Touch Icons -->
+  <link rel="shortcut icon" href="docs/assets/ico/favicon.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="docs/assets/ico/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="docs/assets/ico/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="docs/assets/ico/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="docs/assets/ico/apple-touch-icon-57-precomposed.png">
+</head>
+
+<body id="home" data-spy="scroll" data-target=".navbar">
+
+  <!-- Fixed Top Navbar -->
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="brand" href="https://theca1n.github.io">
+          <i class="icon-hdd icon-white"></i> XC-Legacy
+          <span class="badge badge-info badge-repo">Cydia Repo</span>
+        </a>
+        <div class="nav-collapse collapse">
+          <ul class="nav">
+            <li class="active"><a href="#home"><i class="icon-home icon-white"></i> Home</a></li>
+            <li><a href="#projects"><i class="icon-cog icon-white"></i> My Projects</a></li>
+            <li><a href="#community"><i class="icon-user icon-white"></i> Community Projects</a></li>
+            <li><a href="#guides"><i class="icon-book icon-white"></i> Guides & Dev Central</a></li>
+            <li><a href="#blog"><i class="icon-pencil icon-white"></i> Blog</a></li>
+          </ul>
+          <ul class="nav pull-right">
+            <li>
+              <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://theca1n.github.io/repo" class="btn btn-success btn-mini" style="margin-top: 5px; color: #ffffff; padding: 4px 10px;">
+                <i class="icon-plus icon-white"></i> Open in Cydia
+              </a>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <!-- Top Notification Bar / Header Alert -->
+    <div class="alert alert-info top-notice-bar fade in">
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+      <i class="icon-bullhorn"></i> <strong>Notice:</strong> Looking for modern iOS applications & Apple Developer tools? Visit our 
+      <a href="https://theca1n.github.io/new-version" target="_blank" id="app-store-dev-link">App Store Dev Website Here</a>.
+    </div>
+
+    <!-- Hero Unit Section -->
+    <div class="hero-unit">
+      <div class="row-fluid">
+        <div class="span7">
+          <h1>Get Started With Everything</h1>
+          <p>
+            Find every essential tweak, fix, and service for your legacy iOS devices directly in our official Cydia repository. Explore our extensive collection of in-depth guides and documentation to bring your classic devices back to life.
+          </p>
+          <div class="hero-actions">
+            <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://theca1n.github.io/repo" class="btn btn-success btn-large" id="add-cydia-btn">
+              <i class="icon-download-alt icon-white"></i> Add to Cydia
+            </a>
+            <a href="#projects" class="btn btn-primary btn-large">
+              <i class="icon-list-alt icon-white"></i> Browse Projects & Guides
+            </a>
+          </div>
+          <div style="margin-top: 15px; font-size: 13px; color: #a0aab5;">
+            <i class="icon-globe icon-white"></i> Repository Address: <code>https://theca1n.github.io/repo</code>
+          </div>
+        </div>
+        <div class="span5 text-center">
+          <div class="hero-frame">
+            <img src="img/hero-device.png" alt="XC-Legacy iPhone Showcase" id="hero-device-img">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Welcome & Mission Section -->
+    <div class="well">
+      <div class="row-fluid">
+        <div class="span12">
+          <h2 style="margin-top:0; color:#0088cc;"><i class="icon-heart"></i> Welcome to my site!</h2>
+          <p class="lead">
+            Greetings! I'm <strong>Can Zaptçıoğlu</strong>, the creator and maintainer of <strong>XC-Legacy</strong>.
+          </p>
+          <p>
+            This portal is dedicated to preserving vintage Apple hardware and classic iOS releases (iOS 3, 4, 5, 6, and 7). As official Apple servers, SSL certificates, and legacy APIs retire over time, classic iDevices often lose essential functionality. Our mission is to keep vintage hardware operational, productive, and enjoyable through reverse proxies, custom substrate tweaks, patch packages, and detailed documentation.
+          </p>
+          <p>
+            Whether you are reviving an iPhone 4S on iOS 6.1.3, setting up a retro iPad 2 music server, or developing custom 32-bit dylibs in Xcode, XC-Legacy provides everything you need in one centralized hub.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section: My Featured Projects -->
+    <div class="page-header" id="projects">
+      <h2><i class="icon-star"></i> My Featured Projects <small>Official Tweaks & Patches by Can Zaptçıoğlu</small></h2>
+    </div>
+
+    <div class="row-fluid">
+      <div class="span4">
+        <div class="well text-center">
+          <span class="label label-important pull-right">v1.4.2</span>
+          <h3><i class="icon-shopping-cart"></i> App Store SSL Fix</h3>
+          <p>Restores connection to the legacy iTunes & App Store server architecture on iOS 4.3 through 6.1.6 by bridging TLS 1.2 cipher suites.</p>
+          <hr>
+          <p><span class="label label-ios6">iOS 4.3 - 6.1.6</span> <span class="label label-patch">Fix Tweak</span></p>
+          <a href="https://theca1n.github.io/repo" class="btn btn-primary btn-block"><i class="icon-download icon-white"></i> Get Tweak via Repo</a>
+        </div>
+      </div>
+
+      <div class="span4">
+        <div class="well text-center">
+          <span class="label label-info pull-right">v2.1.0</span>
+          <h3><i class="icon-fire"></i> Weather & Stocks Patch</h3>
+          <p>Replaces dead Yahoo! weather data endpoints with a modern server proxy, bringing native iOS 5 and iOS 6 stock widgets back to life.</p>
+          <hr>
+          <p><span class="label label-ios6">iOS 5.0 - 6.1.6</span> <span class="label label-patch">Widget Patch</span></p>
+          <a href="https://theca1n.github.io/repo" class="btn btn-primary btn-block"><i class="icon-download icon-white"></i> Get Tweak via Repo</a>
+        </div>
+      </div>
+
+      <div class="span4">
+        <div class="well text-center">
+          <span class="label label-success pull-right">v1.0.5</span>
+          <h3><i class="icon-lock"></i> Root Certificate Pack</h3>
+          <p>Automated installer for modern ISRG Root X1 and Let's Encrypt certificates to prevent 'Cannot Verify Server Identity' popups in Safari.</p>
+          <hr>
+          <p><span class="label label-ios6">iOS 3.0 - 7.1.2</span> <span class="label label-tool">Cert Tool</span></p>
+          <a href="https://theca1n.github.io/repo" class="btn btn-primary btn-block"><i class="icon-download icon-white"></i> Get Tweak via Repo</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row-fluid" style="margin-top: 15px;">
+      <div class="span4">
+        <div class="well text-center">
+          <span class="label label-warning pull-right">v0.9.8</span>
+          <h3><i class="icon-facetime-video"></i> YouTube Classic Fix</h3>
+          <p>Patches the standalone YouTube app on iOS 5 and 6 to consume modern YouTube v3 API payloads with custom API key support.</p>
+          <hr>
+          <p><span class="label label-ios6">iOS 5.0 - 6.1.6</span> <span class="label label-patch">App Patch</span></p>
+          <a href="https://theca1n.github.io/repo" class="btn btn-primary btn-block"><i class="icon-download icon-white"></i> Get Tweak via Repo</a>
+        </div>
+      </div>
+
+      <div class="span4">
+        <div class="well text-center">
+          <span class="label label-info pull-right">v1.2.0</span>
+          <h3><i class="icon-refresh"></i> Game Center Enabler</h3>
+          <p>Bypasses legacy authentication checks allowing multiplayer connection for classic local Wi-Fi and Bluetooth gaming sessions.</p>
+          <hr>
+          <p><span class="label label-ios6">iOS 4.1 - 6.1.6</span> <span class="label label-patch">Game Fix</span></p>
+          <a href="https://theca1n.github.io/repo" class="btn btn-primary btn-block"><i class="icon-download icon-white"></i> Get Tweak via Repo</a>
+        </div>
+      </div>
+
+      <div class="span4">
+        <div class="well text-center">
+          <span class="label label-inverse pull-right">v3.0.1</span>
+          <h3><i class="icon-wrench"></i> MobileSubstrate Helper</h3>
+          <p>Optimized MobileSubstrate and PreferenceLoader bundle configurations tuned specifically for lower memory 256MB/512MB devices.</p>
+          <hr>
+          <p><span class="label label-ios6">iOS 4.0 - 7.1.2</span> <span class="label label-tool">Dev Library</span></p>
+          <a href="https://theca1n.github.io/repo" class="btn btn-primary btn-block"><i class="icon-download icon-white"></i> Get Tweak via Repo</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section: Community Projects -->
+    <div class="page-header" id="community">
+      <h2><i class="icon-user"></i> Community Projects <small>Developer Contributions & Third-Party Tools</small></h2>
+    </div>
+
+    <div class="row-fluid">
+      <!-- Developer A Block -->
+      <div class="span6">
+        <div class="well">
+          <div class="dev-card-header">
+            <h4><i class="icon-briefcase"></i> CyberDev Team <span class="label label-info pull-right">Featured Author</span></h4>
+            <p class="muted"><small>Specializing in network protocol translation & legacy media streaming</small></p>
+          </div>
+          <ul class="unstyled">
+            <li style="margin-bottom: 12px;">
+              <strong>Legacy Maps & Location Fix</strong> <span class="label label-success">v1.1</span>
+              <p>Replaces discontinued map tile services with OpenStreetMap rendering tiles for native iOS 5 Maps.app.</p>
+              <a href="https://theca1n.github.io/repo" class="btn btn-mini btn-info"><i class="icon-share-alt icon-white"></i> View in Repo</a>
+            </li>
+            <li>
+              <strong>MobileSafari HTTPS Proxy Enabler</strong> <span class="label label-info">v2.0</span>
+              <p>Routes browser HTTPS traffic through an encrypted proxy to handle modern TLS 1.3 handshakes.</p>
+              <a href="https://theca1n.github.io/repo" class="btn btn-mini btn-info"><i class="icon-share-alt icon-white"></i> View in Repo</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Developer B Block -->
+      <div class="span6">
+        <div class="well">
+          <div class="dev-card-header">
+            <h4><i class="icon-wrench"></i> VintageiOSLab <span class="label label-info pull-right">Featured Author</span></h4>
+            <p class="muted"><small>32-Bit ARM assembly tweaks, springboard modifications & UI patches</small></p>
+          </div>
+          <ul class="unstyled">
+            <li style="margin-bottom: 12px;">
+              <strong>30-Pin Dock Audio Activator</strong> <span class="label label-success">v1.0</span>
+              <p>Enables direct digital USB audio routing to classic 30-pin speaker docks on iOS 6.1.3.</p>
+              <a href="https://theca1n.github.io/repo" class="btn btn-mini btn-info"><i class="icon-share-alt icon-white"></i> View in Repo</a>
+            </li>
+            <li>
+              <strong>Notification Center Weather Widget Reviver</strong> <span class="label label-warning">v0.9</span>
+              <p>Restores pull-down Notification Center weather animations and forecast panels on iOS 5/6.</p>
+              <a href="https://theca1n.github.io/repo" class="btn btn-mini btn-info"><i class="icon-share-alt icon-white"></i> View in Repo</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section: Guides & Developer Central -->
+    <div class="page-header" id="guides">
+      <h2><i class="icon-book"></i> Guides & Developer Central <small>Documentation & Tutorials</small></h2>
+    </div>
+
+    <div class="accordion" id="guides-accordion">
+      <!-- Guide 1 -->
+      <div class="accordion-group">
+        <div class="accordion-heading">
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#guides-accordion" href="#guideOne">
+            <i class="icon-certificate"></i> Guide #1: Installing Modern Root SSL Certificates on iOS 4, 5 & 6
+          </a>
+        </div>
+        <div id="guideOne" class="accordion-body collapse in">
+          <div class="accordion-inner">
+            <p><strong>Overview:</strong> Older iOS versions lack modern root CA certificates (such as Let's Encrypt ISRG Root X1), causing SSL handshake errors when browsing HTTPS sites or connecting to Cydia repositories.</p>
+            <h5>Step-by-Step Instructions:</h5>
+            <ol>
+              <li>Open <strong>Safari</strong> on your legacy device and navigate to <code>https://theca1n.github.io/repo</code>.</li>
+              <li>Tap on <strong>Download ISRG Root X1 Profile</strong>.</li>
+              <li>When prompted by iOS, tap <strong>Install</strong> and confirm with your device passcode.</li>
+              <li>Respring or reboot your device to refresh the security daemon (<code>securityd</code>).</li>
+            </ol>
+            <pre># Manual Terminal Verification via SSH:
+ssh root@your-device-ip
+cydia-cert-install --verify ISRG_Root_X1.pem</pre>
+          </div>
+        </div>
+      </div>
+
+      <!-- Guide 2 -->
+      <div class="accordion-group">
+        <div class="accordion-heading">
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#guides-accordion" href="#guideTwo">
+            <i class="icon-cog"></i> Guide #2: Setting Up Xcode 4.6 / 5.1 for Legacy iOS 32-Bit Development
+          </a>
+        </div>
+        <div id="guideTwo" class="accordion-body collapse in">
+          <div class="accordion-inner">
+            <p><strong>Overview:</strong> Modern Xcode toolchains no longer include <code>armv6</code> and <code>armv7</code> compilers for iOS 6 and earlier. This guide explains how to configure an isolated Xcode legacy environment.</p>
+            <h5>Key Requirements:</h5>
+            <ul>
+              <li>Xcode 4.6.3 or 5.1.1 running on macOS Mavericks / Yosemite or inside a virtual machine.</li>
+              <li>iOS 6.1 SDK extraction into <code>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/SDKs/</code>.</li>
+              <li>The Theos build framework for MobileSubstrate <code>dylib</code> injection.</li>
+            </ul>
+            <pre># Theos environment command for armv7/armv7s target:
+export TARGET = iphone:clang:6.1:5.0
+export ARCHS = armv7 armv7s</pre>
+          </div>
+        </div>
+      </div>
+
+      <!-- Guide 3 -->
+      <div class="accordion-group">
+        <div class="accordion-heading">
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#guides-accordion" href="#guideThree">
+            <i class="icon-globe"></i> Guide #3: Building Reverse Proxy Bridges for Dead iOS 5/6 APIs
+          </a>
+        </div>
+        <div id="guideThree" class="accordion-body collapse in">
+          <div class="accordion-inner">
+            <p><strong>Overview:</strong> Learn how to host a lightweight Node.js or Python Flask proxy on your home network or VPS that translates modern JSON/XML APIs into legacy XML/plist formats expected by classic iOS apps.</p>
+            <pre>const express = require('express');
+const app = express();
+
+app.get('/weather/v1', (req, res) => {
+  // Translate OpenMeteo JSON to legacy Yahoo Weather XML format
+  res.set('Content-Type', 'text/xml');
+  res.send('&lt;weather&gt;&lt;temp&gt;72&lt;/temp&gt;&lt;condition&gt;Sunny&lt;/condition&gt;&lt;/weather&gt;');
+});
+
+app.listen(8080, () => console.log('Legacy Weather Proxy running on port 8080'));</pre>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section: Blog -->
+    <div class="page-header" id="blog">
+      <h2><i class="icon-pencil"></i> Dev-Logs & Blog <small>Latest Articles & Technical Updates</small></h2>
+    </div>
+
+    <div class="row-fluid">
+      <div class="span4">
+        <div class="well">
+          <h4>Preserving iOS 6.1.3 on iPhone 4S</h4>
+          <p class="muted"><i class="icon-calendar"></i> August 14, 2026 | <i class="icon-time"></i> 5 min read</p>
+          <p>An in-depth status update on running an iPhone 4S as a daily music driver, retro gaming unit, and smart home controller in 2026.</p>
+          <a href="#" class="btn btn-small"><i class="icon-file"></i> Read Post</a>
+        </div>
+      </div>
+
+      <div class="span4">
+        <div class="well">
+          <h4>Why TLS 1.2 Backports Matter</h4>
+          <p class="muted"><i class="icon-calendar"></i> July 28, 2026 | <i class="icon-time"></i> 7 min read</p>
+          <p>Technical breakdown of cipher suites, OpenSSL 1.1 backports for MobileSafari, and securing legacy HTTP communication.</p>
+          <a href="#" class="btn btn-small"><i class="icon-file"></i> Read Post</a>
+        </div>
+      </div>
+
+      <div class="span4">
+        <div class="well">
+          <h4>Building Cydia Repo Infrastructure</h4>
+          <p class="muted"><i class="icon-calendar"></i> June 15, 2026 | <i class="icon-time"></i> 4 min read</p>
+          <p>How to set up GitHub Pages, APT <code>Packages.bz2</code> indexing, and GPG release signing for Cydia source distribution.</p>
+          <a href="#" class="btn btn-small"><i class="icon-file"></i> Read Post</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="row-fluid">
+        <div class="span6">
+          <p><strong>XC-Legacy</strong> &mdash; Dedicated to vintage Apple software preservation.</p>
+          <p>&copy; XC-Legacy by <strong>Can Zaptçıoğlu</strong>.</p>
+          <p>Contact: <a href="mailto:zaptcioglucan@gmail.com">zaptcioglucan@gmail.com</a></p>
+          <p>Main Website: <a href="https://theca1n.github.io">https://theca1n.github.io</a></p>
+        </div>
+        <div class="span6 text-right">
+          <p><a href="#home" class="btn btn-mini btn-inverse"><i class="icon-arrow-up icon-white"></i> Back to top</a></p>
+          <p><span class="label label-info">GitHub Pages Ready</span> <span class="label label-success">Bootstrap 2.3.2</span></p>
+        </div>
+      </div>
+
+      <!-- Lowercase Mandatory Legal Disclaimer -->
+      <div class="legal-disclaimer">
+        please note: all product names, logos, brands, ios, and apple are property of their respective owners. we do not claim any copyright ownership. everything related to apple and ios belongs to apple inc. this is a non-profit preservation project.
+      </div>
+    </footer>
+
+  </div> <!-- /container -->
+
+  <!-- JavaScript Plugins & Local Bootstrap Libraries -->
+  <script src="js/jquery-1.10.2.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+    $(document.body).ready(function() {
+      // Smooth scrolling for navigation anchors
+      $('a[href^="#"]').on('click', function(e) {
+        var target = $(this.getAttribute('href'));
+        if( target.length ) {
+          e.preventDefault();
+          $('html, body').stop().animate({
+            scrollTop: target.offset().top - 70
+          }, 400);
+        }
+      });
+    });
+  </script>
+</body>
+</html>
