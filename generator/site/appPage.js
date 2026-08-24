@@ -7,15 +7,15 @@ function generateAppPage(app) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${app.displayName || app.name} | XC</title>
-    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
     <header>
-        <div class="brand"><a href="../../index.html" style="color:inherit">XC</a></div>
+        <div class="brand"><a href="/" style="color:inherit">XC</a></div>
         <nav>
             <ul>
-                <li><a href="../../index.html">Home</a></li>
-                <li><a href="../../support/">Support</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/support/">Support</a></li>
             </ul>
         </nav>
     </header>
@@ -39,17 +39,17 @@ function generateAppPage(app) {
             ${app.hasSubscriptions ? '<p style="margin-top:1rem; font-size:0.9rem;"><em>Optional subscription available.</em></p>' : ''}
             
             <div style="margin-top: 2rem;">
-                <a href="privacy/" class="btn" style="background:var(--border-color); color:var(--text-color);">Privacy Policy</a>
-                <a href="terms/" class="btn" style="background:var(--border-color); color:var(--text-color);">Terms of Use</a>
+                <a href="/apps/${app.id}/privacy/" class="btn" style="background:var(--border-color); color:var(--text-color);">Privacy Policy</a>
+                <a href="/apps/${app.id}/terms/" class="btn" style="background:var(--border-color); color:var(--text-color);">Terms of Use</a>
             </div>
         </section>
     </main>
 
     <footer>
         <div class="footer-links">
-            <a href="../../support/">Support</a>
-            <a href="privacy/">Privacy</a>
-            <a href="terms/">Terms</a>
+            <a href="/support/">Support</a>
+            <a href="/apps/${app.id}/privacy/">Privacy</a>
+            <a href="/apps/${app.id}/terms/">Terms</a>
         </div>
         <p>&copy; ${new Date().getFullYear()} XC. All rights reserved.</p>
     </footer>

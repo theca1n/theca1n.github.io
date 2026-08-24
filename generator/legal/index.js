@@ -47,11 +47,11 @@ function generatePrivacyPolicy(app) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy - ${appName} | XC</title>
-    <link rel="stylesheet" href="../../../css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
     <header>
-        <div class="brand"><a href="../../../index.html" style="color:inherit">XC</a></div>
+        <div class="brand"><a href="/" style="color:inherit">XC</a></div>
     </header>
     <main class="legal-content">
         <h1>Privacy Policy</h1>
@@ -85,11 +85,11 @@ function generateTermsOfUse(app) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terms of Use - ${appName} | XC</title>
-    <link rel="stylesheet" href="../../../css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
     <header>
-        <div class="brand"><a href="../../../index.html" style="color:inherit">XC</a></div>
+        <div class="brand"><a href="/" style="color:inherit">XC</a></div>
     </header>
     <main class="legal-content">
         <h1>Terms of Use</h1>

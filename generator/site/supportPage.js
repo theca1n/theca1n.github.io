@@ -3,9 +3,9 @@ function generateSupportPage(apps) {
         <div style="margin-bottom: 2rem;">
             <h3>${app.displayName || app.name}</h3>
             <p>
-                <a href="../apps/${app.id}/">View App</a> | 
-                <a href="../apps/${app.id}/privacy/">Privacy</a> | 
-                <a href="../apps/${app.id}/terms/">Terms</a>
+                <a href="/apps/${app.id}/">View App</a> | 
+                <a href="/apps/${app.id}/privacy/">Privacy</a> | 
+                <a href="/apps/${app.id}/terms/">Terms</a>
             </p>
         </div>
     `).join('\n');
@@ -16,15 +16,15 @@ function generateSupportPage(apps) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Support | XC</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
     <header>
-        <div class="brand"><a href="../index.html" style="color:inherit">XC</a></div>
+        <div class="brand"><a href="/" style="color:inherit">XC</a></div>
         <nav>
             <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="index.html">Support</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/support/">Support</a></li>
             </ul>
         </nav>
     </header>
@@ -45,7 +45,7 @@ function generateSupportPage(apps) {
 
     <footer>
         <div class="footer-links">
-            <a href="index.html">Support</a>
+            <a href="/support/">Support</a>
         </div>
         <p>&copy; ${new Date().getFullYear()} XC. All rights reserved.</p>
     </footer>
